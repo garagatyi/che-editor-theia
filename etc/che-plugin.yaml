@@ -33,6 +33,8 @@ containers:
    volumes:
        - mountPath: "/plugins"
          name: plugins
+       - mountPath: "/custom"
+         name: custom
        - mountPath: "/projects"
          name: projects
    ports:
